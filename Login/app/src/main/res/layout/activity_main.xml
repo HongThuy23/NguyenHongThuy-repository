@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/pink"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textAlignment="textEnd"
+            android:text="Nguyễn Hồng Thúy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:textAlignment="textEnd"
+            android:text="MÃ SV: 21115053120253"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="37sp"
+            android:textColor="#fff"
+            android:text="Welcome to Dynao"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            android:textColor="#ffff"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstylepinkdark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn More"/>
+            <Button
+                android:layout_margin="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join the club"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            android:textSize="17sp" />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableRight="@drawable/ic_eye"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Login In"
+            android:textSize="15sp"
+            android:textColor="#ffff"
+            android:background="@drawable/buttonstylegraydark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Don't have an account?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Sign up"/>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
