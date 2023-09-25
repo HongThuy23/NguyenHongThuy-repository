@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/pink"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Nguyễn Hồng Thúy"
+            android:textAlignment="textEnd"
+            android:textColor="#ffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="Mã SV: 21115053120253"
+            android:textAlignment="textEnd"
+            android:textColor="#ffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:text="Sign Up"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="10dp"
+            android:hint="Username"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableRight="@drawable/ic_eye"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_lock"
+            android:drawableRight="@drawable/ic_eye"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:hint="Confirm password"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="I accept all items and conditions"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign Up"
+            android:textSize="15sp"
+            android:textColor="#ffff"
+            android:background="@drawable/buttonstylegraydark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Already have an account?"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Login now"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
